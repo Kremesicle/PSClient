@@ -12,7 +12,7 @@ public class Jframe extends client implements ActionListener {
     private static JMenuItem menuItem;
 	private JFrame frame;
 
-	public Jframe(String args[]) {
+	public Jframe() {
 		super();
 		try {
 			CacheDownloader cacheDownloader = new CacheDownloader();

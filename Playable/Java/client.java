@@ -2684,34 +2684,13 @@ followDistance = 1;
 
 	public static void main(String args[]) {
 		try {
-			if(args.length != 5) {
-				System.out.println("Usage: node-id, port-offset, [lowmem/highmem], [free/members], storeid");
-				return;
-			}
-			nodeID = Integer.parseInt(args[0]);
-			//portOff = Integer.parseInt(args[1]);
+			nodeID = 0;
 			portOff = 0;
-			if(args[2].equals("lowmem"))
-				setLowMem();
-			else if(args[2].equals("highmem")) {
-				setHighMem();
-			} else {
-				System.out.println("Usage: node-id, port-offset, [lowmem/highmem], [free/members], storeid");
-				return;
-			}
-			if(args[3].equals("free"))
-				isMembers = false;
-			else if(args[3].equals("members")) {
-				isMembers = true;
-			} else {
-				System.out.println("Usage: node-id, port-offset, [lowmem/highmem], [free/members], storeid");
-				return;
-			}
-			signlink.storeid = Integer.parseInt(args[4]);
+			setHighMem();
+			isMembers = true;
+			signlink.storeid = 0;
 			signlink.startpriv(InetAddress.getLocalHost());
-			new Jframe(args);
-			//client client1 = new client();
-			//client1.createClientFrame(503, 765);
+			new Jframe();
 		} catch(Exception exception) {
 		}
 	}
