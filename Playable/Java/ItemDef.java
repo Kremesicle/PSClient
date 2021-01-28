@@ -352,6 +352,22 @@ public final class ItemDef {
 			itemDef.femaleEquip1 = 42615;
 			itemDef.description = "Vesta's longsword, a reward from PVP.".getBytes();
 			break;
+				case 10484: //10484 is a null so im using it
+					itemDef.name = "SpiritWood Blade";
+					itemDef.actions = new String[5];
+					itemDef.actions[1] = "Equip";
+					itemDef.modelID = 14928; //this is the drop model id
+					itemDef.modelZoom = 1744;
+					itemDef.modelRotation1 = 738;
+					itemDef.modelRotation2 = 1985;
+					itemDef.modelOffset2 = 0;
+					itemDef.modelOffset1 = 0;
+					itemDef.anInt204 = 0; //all of these are ints, currently we didnt get any ints with the model, but u need the ints of the models to make it appear fine in inventory.
+					//right now we will just use the ints of vesta long sword.
+					itemDef.maleEquip1 = 14927; //this is the wearing model id
+					itemDef.femaleEquip1 = 14927; //unless u have a seperate model for female (mostly in armours)
+					itemDef.description = "Damn......".getBytes();
+					break;
 
 		case 13905:
 			itemDef.name = "Vesta's spear";
