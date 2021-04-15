@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6bc6977e-9dab-45fa-b9d3-abab5887c194" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/ItemDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/ItemDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Jframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Jframe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/ModelDecompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/ModelDecompressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/sign/signlink.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/sign/signlink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +34,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.20344828" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.client">
     <configuration name="Jframe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -58,6 +68,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,39 +82,12 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1588434407486">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588434407486" />
-    <state x="559" y="88" key="CommitChangelistDialog2" timestamp="1588434390734">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="559" y="88" key="CommitChangelistDialog2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588434390734" />
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1589148441197">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589148441197" />
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589137809895" />
-    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1589148441197">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589148441197" />
-    <state width="1877" height="311" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589137809895" />
-    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1589148441197">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589148441197" />
-    <state width="1877" height="311" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589137809894" />
-    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1589148441197">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589148441197" />
-    <state width="1877" height="311" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589137809895" />
-    <state x="668" y="255" width="585" height="530" key="find.popup" timestamp="1595786172637">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="668" y="255" width="585" height="530" key="find.popup/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595786172637" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

@@ -13,8 +13,10 @@
 
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <outputDirectory>C:/Users/runes/Desktop/Runescape server</outputDirectory>
                     <finalName>
-                        Quarantine
+                        Rusty
                     </finalName>
                     <archive>
                         <manifest>

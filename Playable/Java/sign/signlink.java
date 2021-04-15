@@ -111,7 +111,7 @@ public final class signlink implements Runnable {
 		String as[] = { "C:/" };
 		if (storeid < 32 || storeid > 34)
 			storeid = 32;
-		String s = "OldSkool";
+		String s = ".rustyCache";
 		for (int i = 0; i < as.length; i++)
 			try {
 				String s1 = as[i];
@@ -122,7 +122,7 @@ public final class signlink implements Runnable {
 				}
 				File file1 = new File(s1 + s);
 				if (file1.exists() || file1.mkdir())
-					return "C:/OldSkool/";
+					return "C:/.rustyCache/";
 			} catch (Exception _ex) {
 			}
 		return null;

@@ -34,8 +34,8 @@ public class ModelDecompressor {
 
 	public static void loadModels2() {
 		try {
-			DataInputStream indexFile = new DataInputStream(new FileInputStream("C:/OldSkool/models2.idx"));
-			DataInputStream dataFile = new DataInputStream(new FileInputStream("C:/OldSkool/models2.dat"));
+			DataInputStream indexFile = new DataInputStream(new FileInputStream("C:/.rustyCache/models2.idx"));
+			DataInputStream dataFile = new DataInputStream(new FileInputStream("C:/.rustyCache/models2.dat"));
 			int length = indexFile.readInt();
 			for(int i = 0; i < length; i++) {
 				int id = indexFile.readInt();

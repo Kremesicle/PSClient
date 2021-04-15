@@ -6402,7 +6402,7 @@ followDistance = 1;
 				loginMessage2 = "Connecting to server...";
 				drawLoginScreen(true);
 			}
-			socketStream = new RSSocket(this, openSocket(6598 + portOff));
+			socketStream = new RSSocket(this, openSocket(9999 + portOff));
 			long l = TextClass.longForName(s);
 			int i = (int)(l >> 16 & 31L);
 			stream.currentOffset = 0;
@@ -12272,7 +12272,7 @@ case 174:
 		cButtonHPos = -1;
 		cButtonHCPos = -1;
 		cButtonCPos = 0;
-		server = "173.252.31.42";
+		server = "rustyrsps.ddns.net";
 		anIntArrayArray825 = new int[104][104];
 		friendsNodeIDs = new int[200];
 		groundArray = new NodeList[4][104][104];

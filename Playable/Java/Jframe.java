@@ -15,8 +15,6 @@ public class Jframe extends client implements ActionListener {
 	public Jframe() {
 		super();
 		try {
-			CacheDownloader cacheDownloader = new CacheDownloader();
-			cacheDownloader.downloadCache();
 			sign.signlink.startpriv(InetAddress.getByName(server));
 
 			initUI();
@@ -93,11 +91,7 @@ public class Jframe extends client implements ActionListener {
 	}
 
 	private static void openUpWebSite(String url) {
-		Desktop d = Desktop.getDesktop();
-		try {
-			d.browse(new URI(url)); 	
-		} catch (Exception e) {
-		}
+
 	}
 
 	public void actionPerformed(ActionEvent evt) {
